@@ -1,0 +1,40 @@
+{
+  "id": "librarian",
+  "title": "Librarian",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "description": "<p>Librarian is a module that provides a \"Handout Sheet,\" which is a variant of the Loot Sheet that presents to non-GMs as a handout, showing either the identified or unidentified text.</p><p>It will be designed so that the handout background can be swapped out, and things like aspect ratio, scaling, hue shifting, and size fixedness can be controlled by the GM in a configuration dialog.</p>",
+  "authors": [
+    {
+      "name": "kgar",
+      "url": "https://github.com/kgar",
+      "discord": "_kgar",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/kgar/foundryvtt-librarian",
+  "esmodules": ["./scripts/module.mjs"],
+  "styles": ["./styles/librarian.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}

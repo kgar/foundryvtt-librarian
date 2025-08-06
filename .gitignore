@@ -1,0 +1,3 @@
+*.lock
+foundry
+foundry-config.yaml
